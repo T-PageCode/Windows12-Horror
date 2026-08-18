@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(255, 49, 49);
+    user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+#startup-div{
+    position: absolute;
+    background-color: rgb(83, 0, 0);
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+    z-index: 3;
+}
+#win12-logo{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100px;
+    height: 100px;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+#progress-bar-div{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(83, 0, 0);
+    border-radius: 50px;
+    width: 350px;
+    height: 8px;
+    overflow: hidden;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+#progress-bar{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translateY(-50%);
+    background-color: rgb(255, 0, 0);
+    border-radius: 50px;
+    width: 0px;
+    height: 8px;
+    animation: progress-bar-go 6s forwards;
+    animation-delay: 3s;
+}
+@keyframes progress-bar-go{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 350px;
+    }
+}

@@ -1,0 +1,51 @@
+.winlogo-1{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translate(-50%,-50%);
+    border-top-left-radius: 25px;
+}
+.winlogo-2{
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    transform: translate(-50%,-50%);
+    border-bottom-left-radius: 25px;
+}
+.winlogo-3{
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translate(-50%,-50%);
+    border-bottom-right-radius: 25px;
+}
+.winlogo-4{
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    transform: translate(-50%,-50%);
+    border-top-right-radius: 25px;
+}
+.winlogo-wh-90px{
+    width: 90px;
+    height: 90px;
+}
+.winlogo-wh-30px{
+    width: 30px;
+    height: 30px;
+}
+.winlogo-color{
+    background-color: rgb(255, 0, 0)
+}
+.border-radius-10px-1{
+    border-top-left-radius: 10px;
+}
+.border-radius-10px-2{
+    border-bottom-left-radius: 10px;
+}
+.border-radius-10px-3{
+    border-bottom-right-radius: 10px;
+}
+.border-radius-10px-4{
+    border-top-right-radius: 10px;
+}

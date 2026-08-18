@@ -1,0 +1,40 @@
+.window-close{
+    position: absolute;
+    top: 5.3%;
+    left: 93.8%;
+    transform: translate(-50%,-50%);
+    width: 62px;
+    height: 32px;
+    background-color: transparent;
+    color: black;
+    opacity: 1;
+    transition: background-color 0.5s ease,
+    color 0.5s ease,
+    opacity 0.5s ease;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#window-ok-btn-msgkeywarn{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 130px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: rgb(255, 89, 89);
+    border: 1px solid rgb(255, 0, 0);
+    font-size: 18px;
+    color: black;
+    transition: background-color 0.5s ease,
+    color 0.5s ease;
+}
+#window-ok-btn-msgkeywarn:hover{
+    background-color: rgb(255, 58, 58);
+}
+#window-ok-btn-msgkeywarn:active{
+    background-color: rgb(255, 25, 25);
+    color: white;
+}

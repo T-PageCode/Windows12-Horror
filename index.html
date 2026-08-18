@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./Styles/startup.css">
+    <link rel="stylesheet" href="./Styles/setup.css">
+    <link rel="stylesheet" href="./Styles/background.css">
+    <link rel="stylesheet" href="./Styles/winlogo.css">
+    <link rel="stylesheet" href="./Styles/window.css">
+    <link rel="stylesheet" href="./Styles/images.css">
+    <script defer src="./Scripts/startup-to-setup.js"></script>
+    <script defer src="./Scripts/preventdefault-contextmenu.js"></script>
+    <script defer src="./Scripts/install-win12.js"></script>
+    <script defer src="./Scripts/window.js"></script>
+    <title>Windows 12 Horror</title>
+</head>
+<body>
+    <div id="div1"></div>
+    <div id="div2"></div>
+    <div id="div3"></div>
+    <div id="startup-div">
+        <div id="win12-logo">
+            <div class="winlogo-1 winlogo-color winlogo-wh-90px"></div>
+            <div class="winlogo-2 winlogo-color winlogo-wh-90px"></div>
+            <div class="winlogo-3 winlogo-color winlogo-wh-90px"></div>
+            <div class="winlogo-4 winlogo-color winlogo-wh-90px"></div>
+        </div>
+        <div id="progress-bar-div">
+            <div id="progress-bar"></div>
+        </div>
+    </div>
+    <div id="setup-div">
+        <div id="setup-window">
+            <div id="setup-installnow-winlogo">
+                <div class="winlogo-1 winlogo-color winlogo-wh-30px border-radius-10px-1"></div>
+                <div class="winlogo-2 winlogo-color winlogo-wh-30px border-radius-10px-2"></div>
+                <div class="winlogo-3 winlogo-color winlogo-wh-30px border-radius-10px-3"></div>
+                <div class="winlogo-4 winlogo-color winlogo-wh-30px border-radius-10px-4"></div>
+            </div>
+            <h1 id="setup-title">Windows 12 Horror</h1>
+            <button id="install-now" onclick="install_win12()">现在安装</button>
+            <h1 id="install-win12ing-please-wait">正在安装Windows 12,请稍等,喝杯茶</h1>
+            <div id="input-key">
+                <h1 id="input-key-title">输入产品密钥</h1>
+                <input id="input-key-inputbox">
+                <div id="input-key-icon">
+                    <div id="input-key-icon-decoration"></div>
+                    <div id="key-line1"></div>
+                    <div id="key-line2"></div>
+                    <div id="key-line3"></div>
+                </div>
+                <button id="i-no-key">我没有产品密钥</button>
+                <div id="window-msg-key-warning">
+                    <div class="window-close" onclick="hiddenWindowMsgKeyWarning()">×</div>
+                    <div class="warning-div">
+                        <img src="./Images/Warning.svg" class="warning-image">
+                        <h1>!</h1>
+                    </div>
+                    <button id="window-ok-btn-msgkeywarn" onclick="hiddenWindowMsgKeyWarning()">确定</button>
+                </div>
+            </div>
+            <div id="install-win12-box-div">
+                <div id="instwin-box-decoration1"></div>
+                <div id="instwin-box-decoration2"></div>
+            </div>
+        </div>
+    </div>
+    <div id="bg-winlogo">
+        <div class="winlogo-1 winlogo-color winlogo-wh-90px"></div>
+        <div class="winlogo-2 winlogo-color winlogo-wh-90px"></div>
+        <div class="winlogo-3 winlogo-color winlogo-wh-90px"></div>
+        <div class="winlogo-4 winlogo-color winlogo-wh-90px"></div>
+    </div>
+</body>
+</html>

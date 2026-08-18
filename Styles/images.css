@@ -1,0 +1,31 @@
+.window-close:hover{
+    background-color: red;
+    color: white;
+}
+.window-close:active{
+    opacity: 0.6;
+}
+.warning-div{
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    width: 100px;
+    height: 100px;
+}
+.warning-image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 90%;
+}
+.warning-div h1{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(255, 255, 255);
+    margin: 0;
+    font-size: 45px;
+}
