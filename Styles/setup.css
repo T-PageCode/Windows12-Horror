@@ -195,6 +195,14 @@
     transform 0.5s ease;
     overflow: hidden;
 }
+#mkw-info{
+    position: absolute;
+    top: 35%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    width: 300px;
+}
 #install-win12ing-please-wait{
     position: absolute;
     top: 50%;
