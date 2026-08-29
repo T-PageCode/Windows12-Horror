@@ -94,6 +94,7 @@
     opacity 0.5s ease;
     visibility: hidden;
     opacity: 0;
+    text-transform: uppercase;
 }
 #input-key-inputbox:focus{
     outline: none;
@@ -176,6 +177,17 @@
 }
 #i-no-key:active{
     background-color: rgb(255, 53, 53);
+}
+#key-example{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    white-space: nowrap;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease;
 }
 #window-msg-key-warning{
     position: absolute;
