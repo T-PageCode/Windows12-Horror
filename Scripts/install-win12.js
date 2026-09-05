@@ -48,7 +48,7 @@ iNoKey.onclick = () => {
     windowMsgKeyWarning.style.transform = "translate(-50%,-50%) scale(1)";
 }
 let input = document.getElementById("input-key-inputbox");
-input.addEventListener("input", (e) => {
+input.addEventListener("input",() => {
     input.value = input.value.replace(/[^a-zA-Z0-9]/g, "").slice(0, 25);
     input.value = input.value.replace(/(.{5})/g, "$1-").slice(0, 29);
 });
